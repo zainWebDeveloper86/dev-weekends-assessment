@@ -1,7 +1,7 @@
 # Dev Weekends Assessment - Country Comparator CLI
 
 
-# Steps:
+
 
 # 1. Create a simple README.md
 echo "# Dev Weekends Assessment - Country Comparator CLI" > README.md
