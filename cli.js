@@ -63,14 +63,7 @@ const args = process.argv.slice(2);
 if (args.length < 2) {
   console.log("Usage: node cli.js <Country1> <Country2>");
   console.log("Example: node cli.js Pakistan India");
-  process.exit(1);
-}
-
-// Simple input validation
-const nameRegex = /^[a-zA-Z\s]+$/;
-if (!nameRegex.test(args[0]) || !nameRegex.test(args[1])) {
-  console.log("Error: Country names must contain only letters and spaces.");
-  process.exit(1);
+  process.exit(1); // forcefully termination
 }
 
 compareCountries(args[0], args[1]);
